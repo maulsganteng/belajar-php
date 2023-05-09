@@ -16,7 +16,7 @@
 
     echo"\n";
     //no 2
-    $stringtunggal = "html,css,php,javascript";
+    $stringtunggal = "html-css-php-javascript";
     $explode = explode('-',$stringtunggal);
     print_r ($explode); //menjadi bentuk array dari string tunggal 
 
