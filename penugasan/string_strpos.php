@@ -9,15 +9,19 @@
 <body>
 
     <?php
+    //no 1
    $strpos ="Saat ini saya sudah mencapai materi php";
    $searchstrpos ="php";
-   echo strpos($strpos,$searchstrpos); //hasilnya 12 
-   
+   $tidakberhasil ="javascript";
+   echo "1.A.berhasil :" . strpos($strpos,$searchstrpos);
+   echo "2.B.tidak berhasil :" . strpos($strpos,$tidakberhasil);
    echo "\n";
-   $strpos ="Saat ini saya sudah mencapai materi php";
-   $searchstrpos ="javascript";
-   echo strpos($strpos,$searchstrpos); //hasilnya 12 
-    
+   //no 2
+   $strpos ="Aku telah melalui tahapan belajar php string, sekarang telah mencapai tahapan strpos. ";
+   $searchstrpos ="belajar php string";
+   $tidakberhasil ="strlen";
+   echo "1.A.berhasil :" . strpos($strpos,$searchstrpos);
+   echo "2.B.tidak berhasil :" . strpos($strpos,$tidakberhasil);
     ?>
 
  </body>

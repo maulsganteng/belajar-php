@@ -9,13 +9,14 @@
 <body>
 
     <?php
+    //no 1
     $karakter ="Aku sedang berada pada materi string preg_match().";
    $pola = "/preg_match/";
    $mengganti ="preg_replace";
    echo preg_replace($pola,$mengganti,$karakter);
 
    echo"\n";
-
+    //no 2
    $karakter ="Aku telah melalui pembelajaran javascript. ";
    $pola = "/javascript/";
    $mengganti ="php";

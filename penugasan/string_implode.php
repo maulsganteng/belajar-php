@@ -9,13 +9,14 @@
 <body>
 
     <?php
+    //no 1
     $arraytampung = array ("fikry","bintang","bayu","ahmad");
     $implode = implode("/"  , $arraytampung);
     echo $implode;
 
     echo "\n";
-
-    $arraytampung =array ("html,css,javascript,php");
+    
+    $arraytampung =array ("html","css","javascript","php");
     $implode =implode("-",$arraytampung);
     echo $implode
 
