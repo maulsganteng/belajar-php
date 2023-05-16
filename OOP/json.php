@@ -16,7 +16,17 @@
         'xi' => 'kelas xi',
         'xii' => 'kelas xii',
     );
-        echo json_encode($kelas);
+        // echo json_encode($kelas['x']);
+        // echo 'br';
+        foreach($kelas as $value){
+            echo $value . "<br> "; 
+        }
+
+        $kelasDecode ='{"x": 1, "xi":2, "xii": 3}';
+        // var_dump(json_decode($kelasDecode));
+       
+        $object =json_decode($kelasDecode);
+        print $object->{'x'};
     ?>
 </body>
 </html>
